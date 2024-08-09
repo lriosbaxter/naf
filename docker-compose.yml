@@ -1,0 +1,15 @@
+version: '3.8'
+
+networks:
+  shared:
+
+services:
+  nafservice:
+    container_name: 'nafservice'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app/naf
+    networks:
+     - shared

@@ -1,0 +1,34 @@
+.send_command_form {
+  &_access_mode, &_enable_mode, &_conf_mode {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .ui.checkbox {
+      margin-right: 20px;
+    }
+  }
+
+  .ui.primary.button {
+    margin-top: 50px;
+  }
+  .dropbox-container {
+    margin-top: 25px;
+    border: 2px dashed #ccc;
+  }
+
+  .send_command_form_from_file.dropbox {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+
+    p {
+      margin-top: 10px;
+    }
+
+    &.dragover {
+      border-color: #007bff;
+    }
+  }
+}

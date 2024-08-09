@@ -1,0 +1,12 @@
+.add_edit_router_form {
+  .ui.primary.button {
+    margin-top: 50px;
+  }
+}
+
+.custom-dropdown {
+  .menu {
+    max-height: 200px; // Set maximum height
+    overflow-y: auto; // Enable vertical scrollbar if needed
+  }
+}
